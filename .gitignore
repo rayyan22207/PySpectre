@@ -1,0 +1,56 @@
+# === Spectra Project Git Ignore ===
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+
+# Ignore audio/video recordings
+*.wav
+*.mp3
+*.aac
+*.flac
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Ignore logs and text data
+*.txt
+*.log
+*.csv
+*.xml
+*.yaml
+*.yml
+
+# Ignore screenshots or webcam snapshots
+screenshot.*
+webcam_*.*
+recorded_*.*
+*.snapshot.*
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# VS Code / JetBrains IDEs
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+ENV/
