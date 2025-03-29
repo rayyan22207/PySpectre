@@ -60,3 +60,5 @@ This project is still very early in development. I'm experimenting and trying ou
 
 This project is inspired by curiosity and a desire to learn more about systems programming, security, and ethical hacking with Python.
 
+## NOTE
+Most of this will me learning and sub repos as Im just having fun here 
