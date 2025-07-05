@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 import mediapipe as mp
 import math
 from ctypes import cast, POINTER
@@ -18,7 +19,8 @@ devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 volume = cast(interface, POINTER(IAudioEndpointVolume))
 volMin, volMax = volume.GetVolumeRange()[:2]  # Usually -65.25 to 0.0
-
+current_vol_scalar = volume.GetMasterVolumeLevelScalar()  # 0.0 to 1.0
+print(f"Current Volume: {int(current_vol_scalar * 100)}%")
 while True:
     success, img = cap.read()
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -48,7 +50,7 @@ while True:
         # Convert length to volume
         vol = int(np.interp(length, [20, 200], [volMin, volMax]))
         volume.SetMasterVolumeLevel(vol, None)
-
+        print(vol)
         # Draw volume bar
         vol_bar = np.interp(length, [20, 200], [400, 150])
         cv2.rectangle(img, (50, 150), (85, 400), (0,255,0), 2)
