@@ -12,13 +12,13 @@ I’m currently **learning as I go**, experimenting with different system-level 
 
 This includes building, testing, and understanding things like:
 
-* Accessing and listing files
-* Recording audio from the microphone
-* Capturing webcam images
-* Taking screenshots
-* Monitoring system resources (CPU, RAM, battery, etc.)
-* Exploring network-related features
-* CLI tools, GUI tools, automations, and low-level scripting
+- Accessing and listing files  
+- Recording audio from the microphone  
+- Capturing webcam images  
+- Taking screenshots  
+- Monitoring system resources (CPU, RAM, battery, etc.)  
+- Exploring network-related features  
+- CLI tools, GUI tools, automations, and low-level scripting
 
 Each feature is here to help me **understand how far I can go with code**, while staying within ethical and legal boundaries.
 
@@ -26,28 +26,26 @@ Each feature is here to help me **understand how far I can go with code**, while
 
 ## ⚠️ Legal / Ethical Notice
 
-* **This project is for educational and personal use only.**
-* All code and tests are run on **my own devices**.
-* I do not promote misuse or unauthorized access.
-* Please **do not use this code on any system you do not fully own or have permission to test**.
+- **This project is for educational and personal use only.**  
+- All code and tests are run on **my own devices**.  
+- I do not promote misuse or unauthorized access.  
+- Please **do not use this code on any system you do not fully own or have permission to test**.
 
 ---
 
 ## 🛠️ Built With
 
-* **Languages:**
+- **Languages:**
+  - Python 3.x (primary focus for now)
+  - Bash, C++, JavaScript (coming soon)
 
-  * Python 3.x (primary focus for now)
-  * Bash, C++, JavaScript (coming soon)
-
-* **Python Libraries:**
-
-  * `os`, `sys`
-  * `sounddevice`
-  * `opencv-python`
-  * `pyautogui`
-  * `psutil`
-  * And more as needed
+- **Python Libraries:**
+  - `os`, `sys`
+  - `sounddevice`
+  - `opencv-python`
+  - `pyautogui`
+  - `psutil`
+  - And more as needed
 
 ---
 
@@ -61,12 +59,12 @@ For now, Spectra is a **sandbox for experiments, projects, and system-level lear
 
 ## 💡 Future Possibilities
 
-* Network monitoring and tools
-* VM and environment detection
-* Ethical keylogging / process watching (on my own system only)
-* Custom command-line interfaces or dashboards
-* Alert and logging systems
-* Cross-platform experiments
+- Network monitoring and tools  
+- VM and environment detection  
+- Ethical keylogging / process watching (on my own system only)  
+- Custom command-line interfaces or dashboards  
+- Alert and logging systems  
+- Cross-platform experiments
 
 ---
 
@@ -87,4 +85,3 @@ Inspired by curiosity, systems programming, and a desire to understand how real 
 This is **not a polished product**, but a **developer’s lab**. Sub-repos and separate projects may be created from here as I learn and grow — eventually merging useful features into larger tools or platforms.
 
 ---
-
