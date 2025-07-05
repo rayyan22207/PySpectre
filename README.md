@@ -1,5 +1,3 @@
----
-
 # 🕵️‍♂️ Spectra
 
 **Spectra** is my personal **learning playground** — a project and repository where I explore what’s possible using different programming languages and tools, starting with Python but eventually expanding to others like JavaScript, C++, Bash, and more.
@@ -83,5 +81,3 @@ Inspired by curiosity, systems programming, and a desire to understand how real 
 ## 📦 Note
 
 This is **not a polished product**, but a **developer’s lab**. Sub-repos and separate projects may be created from here as I learn and grow — eventually merging useful features into larger tools or platforms.
-
----
