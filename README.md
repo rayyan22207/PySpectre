@@ -81,3 +81,4 @@ Inspired by curiosity, systems programming, and a desire to understand how real 
 ## 📦 Note
 
 This is **not a polished product**, but a **developer’s lab**. Sub-repos and separate projects may be created from here as I learn and grow — eventually merging useful features into larger tools or platforms.
+Also will be using ChatGPT alot so most code is from there while I learn

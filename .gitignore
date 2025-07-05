@@ -19,7 +19,7 @@
 *.mov
 
 # Ignore logs and text data
-*.txt
+
 *.log
 *.csv
 *.xml
